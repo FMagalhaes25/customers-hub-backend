@@ -7,9 +7,7 @@ API backend em Node.js com Fastify para cadastro de clientes usando Prisma ORM e
 ![Fastify](https://img.shields.io/badge/Fastify-000000?style=for-the-badge&logo=fastify&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![dotenv](https://img.shields.io/badge/dotenv-ECD53F?style=for-the-badge&logo=dotenv&logoColor=black)
 ![CORS](https://img.shields.io/badge/CORS-Enabled-0A7EA4?style=for-the-badge)
-![License](https://img.shields.io/badge/License-ISC-blue?style=for-the-badge)
 
 ## Sumário
 
