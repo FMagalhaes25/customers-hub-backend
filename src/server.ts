@@ -12,7 +12,11 @@ app.setErrorHandler((error, request, reply) => {
 
 const start = async () => {
 
-    await app.register(cors);
+    await app.register(cors, {
+        origin: '*', // Permite todas as origens. Recomendado restringir em produção: ['http://localhost:3000', 'https://meuapp.com']
+        methods: ['GET', 'POST', 'PUT', 'DELETE'], // Métodos permitidos
+        allowedHeaders: ['Content-Type', 'Authorization'],
+    });
     await app.register(routes.routes);
 
     try {
